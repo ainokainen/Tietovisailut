@@ -1,2 +1,0 @@
-# Tietovisailut
-Tietovisojen yhdistäminen
