@@ -19,7 +19,7 @@ namespace TietovisaC
 
         public string KysyKysymys()
         {
-            string[] kysymykset = File.ReadAllLines(@"C:\Users\ainon\OneDrive\Desktop\C# ohjelmointi\Viikko_1\TietovisaC\TietovisaC\Kysymykset.txt");
+            string[] kysymykset = File.ReadAllLines(@"C:\work\KysymyksetA.txt");
 
 
             Random r = new Random();

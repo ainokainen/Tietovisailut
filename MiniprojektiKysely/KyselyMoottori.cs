@@ -20,7 +20,7 @@ namespace MiniprojektiKysely
 
         public bool HaeKysymykset()
         {
-            string tiedosto = @"kysymykset.txt";
+            string tiedosto = @"C:\work\MiniProjektiViikko1\MiniprojektiKysely\bin\Debug\kysymykset.txt";
             if (!File.Exists(tiedosto))
                 return false;
             string[] rivit = File.ReadAllLines(tiedosto);
